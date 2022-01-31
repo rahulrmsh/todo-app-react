@@ -19,6 +19,16 @@ ul {
   list-style: none;
   padding: 0;
 }
+nav{
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5vw;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.3rem;
+  color: #03dac6;
+  transition: all 0.3s ease;
+  z-index: 3;
+}
 button {
   border: none;
   margin: 0;

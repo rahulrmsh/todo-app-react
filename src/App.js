@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { nanoid } from 'nanoid'
 import Todo from './components/Todo'
 import Form from './components/Form'
-import FilterButton from './components/FilterButton'
+// import FilterButton from './components/FilterButton'
 // import './App.css'
 
 function App (props) {
@@ -51,12 +51,13 @@ function App (props) {
         </label>
       </h2>
       <Form addTask={addTask} />
-      <div className='filters btn-group stack-exception'>
+      {/* <div className='filters btn-group stack-exception'>
         <FilterButton title='All' />
         <FilterButton title='Active' />
         <FilterButton title='Completed' />
-      </div>
+      </div> */}
       <h2 id='list-heading'>{headingText}</h2>
+      <hr />
       <ul
         role='list'
         className='todo-list stack-large stack-exception'
